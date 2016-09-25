@@ -14,7 +14,7 @@ public class Mian {
 		total = InitialCost;
 		CurrentTuition = InitialCost;
 		for (int i = 1;i < 4;i++){
-			System.out.print("Please type in the increase rate of the " + i + " year: ");
+			System.out.printf("Please type in the increase rate of the %dth year: ",i);
 			IncreaseRate = input.nextFloat();
 			CurrentTuition *= ( 1 + IncreaseRate / 100);
 			total += CurrentTuition;
